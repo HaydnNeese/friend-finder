@@ -9,7 +9,7 @@ module.exports = function (app) {
         //map to "home.html"
         res.sendFile(path.join(__dirname, "../public/home.html"))
     })
-}
+
 
     //get route to display the survey page
     app.get("/survey", function (req, res) {
@@ -23,5 +23,5 @@ module.exports = function (app) {
         //map to "home.html"
         res.sendFile(path.join(__dirname, "../public/home.html"))
     })
-}
+};
 
